@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// frontend/src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import BranchPage from './pages/BranchPage';
+import MainPage from './pages/MainPage';
+import LoginPage from './pages/LoginPage';
+import FileUploadPage from './pages/FileUpload';
+import BranchDashboard from './components/Dashboard/BranchDashboard';
+import MainDashboard from './components/Dashboard/MainDashboard';
+import HomePage from './pages/HomePage';
+import Layout from './components/Layout'; // Import the Layout component
+import './assets/styles.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/branch/:branchName" element={<BranchDashboard />} />
+                    <Route path="/main" element={<MainDashboard />} />
+                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/file-upload" element={<FileUploadPage />} />
+                </Routes>
+            </Layout>
+        </Router>
+    );
 }
 
 export default App;
+
