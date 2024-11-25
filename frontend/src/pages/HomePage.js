@@ -6,10 +6,10 @@ import './HomePage.css'; // Import the CSS file
 const HomePage = () => {
     return (
         <div className="homepage">
-            <h1>Welcome to the Church Analytics Dashboard</h1>
+            <h1>Welcome to the Gloryplus International Analytics Dashboard</h1>
             <div className="overview">
                 <h2>Overview</h2>
-                <p>This dashboard provides analytics and insights for various branches, social media, and cells.</p>
+                <p>This dashboard provides analytics and insights for our various branches, social media, and cells.</p>
             </div>
             <div className="branches">
                 <h2>Branches</h2>

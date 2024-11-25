@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Church Analytics Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Church Analytics Dashboard is a comprehensive tool designed to provide insights and analytics for various branches, social media, and cells within the church. This dashboard helps church administrators and leaders make data-driven decisions to improve engagement, growth, and overall church management.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+1. **Branch Dashboards**:
+   - **Analytics and Insights**: Each branch has its own dashboard displaying key metrics and analytics.
+   - **Data Visualization**: Visual representations of data such as charts and graphs to help understand trends and patterns.
+   - **File Upload**: Upload CSV files for attendance, members, social media, and other relevant data. The system performs analysis and displays the results on the branch dashboards.
 
-### `npm start`
+2. **Main Dashboard**:
+   - **Aggregated Analysis**: The main dashboard aggregates data from all branches and provides a holistic view of the church's performance.
+   - **Key Metrics**: Display key metrics such as total attendance, new members, social media engagement, and more.
+   - **Recent Activity**: Shows recent activities and updates across all branches.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Social Media Dashboard**:
+   - **Engagement Metrics**: Track engagement metrics for social media platforms.
+   - **Analytics**: Provide insights into social media performance and engagement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Cells Dashboard**:
+   - **Cell Analytics**: Provide analytics and insights for different cells within the church.
+   - **Data Visualization**: Visual representations of cell data to help understand trends and patterns.
 
-### `npm test`
+5. **File Upload**:
+   - **CSV File Upload**: Upload CSV files for various data types (e.g., attendance, members, social media).
+   - **Data Validation**: The system validates the uploaded data and performs analysis.
+   - **Error Handling**: Provides feedback on any errors or issues with the uploaded data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Benefits
 
-### `npm run build`
+- **Data-Driven Decisions**: Helps church administrators and leaders make informed decisions based on data and analytics.
+- **Improved Engagement**: Enables better understanding of member engagement and participation.
+- **Growth Tracking**: Monitors growth metrics and helps identify areas for improvement.
+- **Centralized Data**: Provides a centralized view of data from all branches, making it easier to manage and analyze.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Navigate to the Homepage**:
+   - The homepage provides an overview of the dashboard and quick links to different sections.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Access Branch Dashboards**:
+   - Click on the branch links in the sidebar to access the respective branch dashboards.
+   - View analytics, insights, and data visualizations for each branch.
 
-### `npm run eject`
+3. **Access the Main Dashboard**:
+   - Click on the "Main Dashboard" link in the sidebar to view aggregated analysis and key metrics.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Access Social Media and Cells Dashboards**:
+   - Click on the respective links in the sidebar to access the social media and cells dashboards.
+   - View engagement metrics, analytics, and data visualizations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Upload Files**:
+   - Click on the "Upload File" link in the sidebar to upload CSV files for analysis.
+   - Follow the instructions to upload the file and view the analysis results on the respective dashboards.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By providing this `README.md` file, users will have a clear understanding of the purpose and features of the dashboard, making it easier for them to navigate and utilize the tool effectively. If you have any specific requirements or additional features you'd like to highlight, please let me know!
